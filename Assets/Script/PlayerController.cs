@@ -29,7 +29,7 @@ namespace Script
             _rigidbody2D.AddForce(Vector2.right * (Input.GetAxis("Horizontal") * horizontalSpeed));
             if (Input.GetKeyDown(KeyCode.Space) && _canJump)
             {
-                var animator = _switcherOnTimer.CurrentSprite.GetComponent<Animator>();
+                // var animator = _switcherOnTimer.CurrentSprite.GetComponent<Animator>();
                 // animator.Play("jump");
                 _rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                 _canJump = false;
@@ -40,7 +40,6 @@ namespace Script
                 var sign = _rigidbody2D.velocity.x >= 0 ? 1 : -1;
                 _rigidbody2D.velocity = new Vector2(sign * maxHSpeed, _rigidbody2D.velocity.y);
             }
-
         }
 
         private void OnTriggerEnter2D(Collider2D other)
