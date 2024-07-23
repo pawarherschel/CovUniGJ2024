@@ -1,0 +1,5652 @@
+fileFormatVersion: 2
+guid: 97a8213e48a195c469688cb5ef98d89f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: metal_bladekeeper_FREE_v1.1_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 288
+      height: 128
+    spriteID: 7b8ca74ec55042d4d949a82b4a49fdd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 4
+      width: 288
+      height: 128
+    spriteID: 4d24a615cbe4ea54bb557224fbe3fe65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 4}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 4
+      width: 288
+      height: 128
+    spriteID: 298c9082ae9206b4d90fc2d28b555b97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 4}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 4
+      width: 288
+      height: 128
+    spriteID: a8a8f8161ed701e40a82daa64cad738e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 4}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 4
+      width: 288
+      height: 128
+    spriteID: 1995c1274ca1d7b4c87f2e5275e0edbc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 4}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 4
+      width: 288
+      height: 128
+    spriteID: cc5d9c6c695bcad4eb1018df1b5bb0ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 4}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 4
+      width: 288
+      height: 128
+    spriteID: 17b1784886c76cb4a88a4f0fec1f92cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 4}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 4
+      width: 288
+      height: 128
+    spriteID: 7b8101c9ac4ad5944a51f533d1247537
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 4}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 4
+      width: 288
+      height: 128
+    spriteID: 8c1b2bc746369d249891ed90413ce337
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 4}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 4
+      width: 288
+      height: 128
+    spriteID: c8e5a324082986144bcbdca3f28aded5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 4}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 4
+      width: 288
+      height: 128
+    spriteID: fc7a7b49fc693cd40a5b67c90e6b60ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 4}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 4
+      width: 288
+      height: 128
+    spriteID: 9356cdc30389c5a45b0731373844d1d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 4}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 4
+      width: 288
+      height: 128
+    spriteID: 7de2b8d6315c3c345bfc0f3e2ec8d3ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 4}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 140
+      width: 288
+      height: 128
+    spriteID: 0510d45b749a135499983e490bc472d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 140}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 140
+      width: 288
+      height: 128
+    spriteID: dcd65404f74967c4ab4abdec2798aa9b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 140}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 140
+      width: 288
+      height: 128
+    spriteID: 51179bc8a49b97b408cb9ccac2465c27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 140}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 140
+      width: 288
+      height: 128
+    spriteID: 2785c1c8335fba846822ceb2e0fc1d9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 140}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 140
+      width: 288
+      height: 128
+    spriteID: 383e3788576fa2c4097fdc3c9ec56525
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 140}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 140
+      width: 288
+      height: 128
+    spriteID: 15e37151bc678e644b75303143cdaca8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 140}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 140
+      width: 288
+      height: 128
+    spriteID: d4442fc205939ef4e96e3d47bf0c69e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 140}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 140
+      width: 288
+      height: 128
+    spriteID: 356b3db6076d8a6419493bf4f8520a32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 140}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 140
+      width: 288
+      height: 128
+    spriteID: cc7066e5f5e51694eb3ad8f00b922116
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 140}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 140
+      width: 288
+      height: 128
+    spriteID: 070e0dac6c760774b94b9c04d7e79966
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 140}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 140
+      width: 288
+      height: 128
+    spriteID: 691037f8a90534141bf7d1d17c48ee38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 140}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 140
+      width: 288
+      height: 128
+    spriteID: b824423d803f49a4d9edceba8fce459e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 140}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 140
+      width: 288
+      height: 128
+    spriteID: f999da1055c13e5449046e08ab62ca0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 140}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 276
+      width: 288
+      height: 128
+    spriteID: a9313e574e0ca7143bbf453d1eeaff5c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 276}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 276
+      width: 288
+      height: 128
+    spriteID: 671c334326b69f14d887141e198f2043
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 276}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 276
+      width: 288
+      height: 128
+    spriteID: 21491860363dba648b86c87d0a7541be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 276}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 276
+      width: 288
+      height: 128
+    spriteID: 21cb82d23fe701e4e86f8f3e511b3124
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 276}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 276
+      width: 288
+      height: 128
+    spriteID: 2fe548afa898c9f45b9c1e461235fd71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 276}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 276
+      width: 288
+      height: 128
+    spriteID: d56bc6f69b783e34bba199f9073a2641
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 276}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 276
+      width: 288
+      height: 128
+    spriteID: 290a2d4e7690d6d469a45ad52cfa5397
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 276}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 276
+      width: 288
+      height: 128
+    spriteID: b758b6bd16c8def4a908fa72d7d9758e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 276}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 276
+      width: 288
+      height: 128
+    spriteID: fd1288ab54042ff45a9e16f6a6e0e472
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 276}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 276
+      width: 288
+      height: 128
+    spriteID: 19152a3316d30d5498c146a3e2a7711a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 276}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 276
+      width: 288
+      height: 128
+    spriteID: fcf2c349bd45c2c49bcd384ed1decadc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 276}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 276
+      width: 288
+      height: 128
+    spriteID: 15e1fbc935fef9643bc415df7b0fcbd9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 276}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 276
+      width: 288
+      height: 128
+    spriteID: 990bc95b698d55f4884da4c42ad8b99f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 276}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 412
+      width: 288
+      height: 128
+    spriteID: be6790f943de4aa48a517d537de3aa39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 412}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 412
+      width: 288
+      height: 128
+    spriteID: f603c03f87b57764a85313860f9d0ea2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 412}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 412
+      width: 288
+      height: 128
+    spriteID: 322cc84d9aca9ce46b7cafddd5f615f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 412}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 412
+      width: 288
+      height: 128
+    spriteID: 42dd42791737e3946adc5fcfcd67084f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 412}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 412
+      width: 288
+      height: 128
+    spriteID: f2c6377c10633a343970c654c9019792
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 412}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 412
+      width: 288
+      height: 128
+    spriteID: 93d90771bb11aca4798ff21242cfb921
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 412}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 412
+      width: 288
+      height: 128
+    spriteID: 1c6525826970bca4f991748d05983f44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 412}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 412
+      width: 288
+      height: 128
+    spriteID: d12b856beb6ad6444bbfeb5f036ec0d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 412}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 412
+      width: 288
+      height: 128
+    spriteID: 1417dcb8688b1854e9d0ed9b49764376
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 412}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 412
+      width: 288
+      height: 128
+    spriteID: 29c92d3e7b8e5b44ba6cb2fde17d146f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 412}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 412
+      width: 288
+      height: 128
+    spriteID: 1cbed2a863cd98c4d9103ede4f2e8398
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 412}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 412
+      width: 288
+      height: 128
+    spriteID: d8d5330b5e8b7a84ea612120c551e149
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 412}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 412
+      width: 288
+      height: 128
+    spriteID: d0eb6a42ccf937d468204cf76ef5e177
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 412}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 548
+      width: 288
+      height: 128
+    spriteID: 069c93d3f5cafd349a004215cca99854
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 548}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 548
+      width: 288
+      height: 128
+    spriteID: 1f803fe67d2b2524794f9b554bfa7844
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 548}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 548
+      width: 288
+      height: 128
+    spriteID: 68c911ad53f4208478bea562fd6d9507
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 548}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_55
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 548
+      width: 288
+      height: 128
+    spriteID: 4532e9843d6316d479f9e846c244c687
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 548}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 548
+      width: 288
+      height: 128
+    spriteID: 59d2946694305114195cd5e9036c3e1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 548}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 548
+      width: 288
+      height: 128
+    spriteID: 967346cbe5cfb9f44bb30f15eaae2476
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 548}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 548
+      width: 288
+      height: 128
+    spriteID: 171f191793c3c2243ab213d06772ecc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 548}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 548
+      width: 288
+      height: 128
+    spriteID: 6201219d3156c9947a4219b7b131a974
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 548}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_60
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 548
+      width: 288
+      height: 128
+    spriteID: 118b7071243a4f04390c6bd3419293df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 548}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 548
+      width: 288
+      height: 128
+    spriteID: 586bea3e122de3d4ab111230915d834b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 548}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 548
+      width: 288
+      height: 128
+    spriteID: e027f45e7944bbc46b8c27d6c0062df5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 548}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 548
+      width: 288
+      height: 128
+    spriteID: ed4f4ec7b67b0074593518a70d57ae8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 548}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 548
+      width: 288
+      height: 128
+    spriteID: f0a5527ed2280b4468a32a3f696841ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 548}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 684
+      width: 288
+      height: 128
+    spriteID: 30589eab51ab0e94bb222d03a834d1de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 684}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_66
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 684
+      width: 288
+      height: 128
+    spriteID: 886ca42a1a6bc944ab5271f50d499e22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 684}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 684
+      width: 288
+      height: 128
+    spriteID: cc7bad8a266b3404fb333e4df99e1e82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 684}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_68
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 684
+      width: 288
+      height: 128
+    spriteID: 008a0c376f7da764cab2dbe8ee0a2550
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 684}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_69
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 684
+      width: 288
+      height: 128
+    spriteID: 0378a3ecf296e8648a5c8eb2921d9fcf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 684}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_70
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 684
+      width: 288
+      height: 128
+    spriteID: 57e59d61404ad69478cfeff94f067aea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 684}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_71
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 684
+      width: 288
+      height: 128
+    spriteID: 10cc88f8ec8f5be4dbde8538bb84d8c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 684}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_72
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 684
+      width: 288
+      height: 128
+    spriteID: b94e8fa7b22f6e64292341ae10cbfec0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 684}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_73
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 684
+      width: 288
+      height: 128
+    spriteID: 9dbac5a573e5f8449857131ebf6ab8ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 684}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 684
+      width: 288
+      height: 128
+    spriteID: 41c57f713db6dc34a9e88ea3af815d7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 684}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_75
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 684
+      width: 288
+      height: 128
+    spriteID: 2b980504e012d064aa577fda35347166
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 684}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_76
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 684
+      width: 288
+      height: 128
+    spriteID: d2857cab0e0502b45af936a6aeb168c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 684}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_77
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 684
+      width: 288
+      height: 128
+    spriteID: b114e1da8426e9f46ae9816432d40828
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 684}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_78
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 820
+      width: 288
+      height: 128
+    spriteID: 43202300adfe4274aafff74f13baba51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 820}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 820
+      width: 288
+      height: 128
+    spriteID: 9d339cdd59be087478670329a42c5cef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 820}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_80
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 820
+      width: 288
+      height: 128
+    spriteID: 27cd712ff4f24714bbd519573ea3b2c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 820}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_81
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 820
+      width: 288
+      height: 128
+    spriteID: a14a73613b06eef448ec9c9e237ece71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 820}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_82
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 820
+      width: 288
+      height: 128
+    spriteID: e1f0bd71522b6614687023fe242945d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 820}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_83
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 820
+      width: 288
+      height: 128
+    spriteID: dff17459dd775ad4c89dfa915fdc3cc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 820}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_84
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 820
+      width: 288
+      height: 128
+    spriteID: 3e58848f9a327504694a314590ca75c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 820}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_85
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 820
+      width: 288
+      height: 128
+    spriteID: f5b3119a6a24a5843817b3bca72feb6f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 820}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_86
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 820
+      width: 288
+      height: 128
+    spriteID: decac212fd525d94e93407f3402f5ad0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 820}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_87
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 820
+      width: 288
+      height: 128
+    spriteID: 5cbd5878aab28c54198749a65e935754
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 820}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_88
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 820
+      width: 288
+      height: 128
+    spriteID: 131b008e6643bdf4895a25d84fc58324
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 820}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_89
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 820
+      width: 288
+      height: 128
+    spriteID: 17888de3aac9e2449b2a8178b5a0c742
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 820}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_90
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 820
+      width: 288
+      height: 128
+    spriteID: 5efab10287b22f445bce3ddd6da119b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 820}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_91
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 956
+      width: 288
+      height: 128
+    spriteID: faf8d067af2b0294b818ef00f07e45c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 956}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_92
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 956
+      width: 288
+      height: 128
+    spriteID: 718d0eaee129faf4588f6b911082dd46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 956}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_93
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 956
+      width: 288
+      height: 128
+    spriteID: 0803d62a189aaaa4d8715f4ec3636120
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 956}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_94
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 956
+      width: 288
+      height: 128
+    spriteID: 76a74cd1d9b168646a3d7641faf864c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 956}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_95
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 956
+      width: 288
+      height: 128
+    spriteID: 9aee4df8e43577948954340e41a178ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 956}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_96
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 956
+      width: 288
+      height: 128
+    spriteID: 9dab4d41abdd23c46af590f1f877cb46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 956}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_97
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 956
+      width: 288
+      height: 128
+    spriteID: 0f07482f60c1ff1449eb77ed98699e30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 956}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_98
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 956
+      width: 288
+      height: 128
+    spriteID: 74b3c89846f6c43438c2b440d030dabb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 956}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_99
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 956
+      width: 288
+      height: 128
+    spriteID: 2e766519a6c7a4c418b52919088813d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 956}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_100
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 956
+      width: 288
+      height: 128
+    spriteID: c7a43d860a1fb2b4f87d717f24229666
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 956}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_101
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 956
+      width: 288
+      height: 128
+    spriteID: e034afb744f54e442baae1dc6da9b1b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 956}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_102
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 956
+      width: 288
+      height: 128
+    spriteID: 55340c6dca95c3d49a566f630abfa3b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 956}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_103
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 956
+      width: 288
+      height: 128
+    spriteID: 700eec76f5f1b164aacacc5cb5434589
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 956}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_104
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 288
+      height: 128
+    spriteID: 3bf4b85ce8555ff4b94ba63cf0111b2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1092}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_105
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 1092
+      width: 288
+      height: 128
+    spriteID: a3a58c6174d8cee43b3a441a2132571c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 1092}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_106
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 1092
+      width: 288
+      height: 128
+    spriteID: 2fa88f0cd14c76e448a710d799bf974a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 1092}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_107
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 1092
+      width: 288
+      height: 128
+    spriteID: e1f762149b9005044ab0c0bfe7c53cf6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 1092}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_108
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 1092
+      width: 288
+      height: 128
+    spriteID: d35c4cdd9b0c4db418a50c881fa904db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 1092}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_109
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 1092
+      width: 288
+      height: 128
+    spriteID: 9bd4a5d3c24e83f4c91c1390ec525035
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 1092}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_110
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 1092
+      width: 288
+      height: 128
+    spriteID: fa045e791990aef4bbf1227fe6cda5c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 1092}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_111
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 1092
+      width: 288
+      height: 128
+    spriteID: 28da9784644aa3f498fb4c21e21dc7bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 1092}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_112
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 1092
+      width: 288
+      height: 128
+    spriteID: d7e9fbbf1e356bf44b971a5a8fb96417
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 1092}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_113
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 1092
+      width: 288
+      height: 128
+    spriteID: 35f2251e6722e6a4eab398da0915d110
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 1092}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_114
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 1092
+      width: 288
+      height: 128
+    spriteID: d2dcb517f96f2524e94661e755951f4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 1092}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_115
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 1092
+      width: 288
+      height: 128
+    spriteID: 551f0013f5f28f04fa9e48903d2cdcd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 1092}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_116
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 1092
+      width: 288
+      height: 128
+    spriteID: 57358c3c1dd453e45b7752af108f740f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 1092}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_117
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1228
+      width: 288
+      height: 128
+    spriteID: 313dae0b8e208f44291c89a9b12e9a3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1228}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_118
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 1228
+      width: 288
+      height: 128
+    spriteID: cb016596cc687a143a08af4c8355c7d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 1228}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_119
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 1228
+      width: 288
+      height: 128
+    spriteID: f2204cc30fe56a244b9f40f795d0a05f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 1228}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_120
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 1228
+      width: 288
+      height: 128
+    spriteID: d50b06a3442ba624e818e94c15c8cf19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 1228}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_121
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 1228
+      width: 288
+      height: 128
+    spriteID: bfab44e44e778e644a4ab66a1f69ff9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 1228}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_122
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 1228
+      width: 288
+      height: 128
+    spriteID: 2c58f567d6658004ba8e0e8af3606e46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 1228}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_123
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 1228
+      width: 288
+      height: 128
+    spriteID: 2515b4a4ed8d0c04a97a933a1c1e58e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 1228}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_124
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 1228
+      width: 288
+      height: 128
+    spriteID: 81fe98bac974b2649a0899a2c492d779
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 1228}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_125
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 1228
+      width: 288
+      height: 128
+    spriteID: 527c314bd0c080e4a8a4e4f2b9a0a97e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 1228}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_126
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 1228
+      width: 288
+      height: 128
+    spriteID: 4e3bdf493af7c624d979d9d0e198de33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 1228}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_127
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 1228
+      width: 288
+      height: 128
+    spriteID: 9a2158741b35c494a9e8266bdce14048
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 1228}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_128
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 1228
+      width: 288
+      height: 128
+    spriteID: 3c173cb6d58b17d42ad3ad2e4f15f753
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 1228}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_129
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 1228
+      width: 288
+      height: 128
+    spriteID: 180a7ed96ee566c4aba8fca85a994895
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 1228}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_130
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1364
+      width: 288
+      height: 128
+    spriteID: 691fb9c5f4152194d96f5f61ab874683
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1364}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_131
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 1364
+      width: 288
+      height: 128
+    spriteID: 74eaa0a661a96c749b6802be2ec79df8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 1364}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_132
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 1364
+      width: 288
+      height: 128
+    spriteID: 4fc51d7831ab2694e92ea8f5251f727a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 1364}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_133
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 1364
+      width: 288
+      height: 128
+    spriteID: cc913523ef3818449858ebcd9bc2db62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 1364}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_134
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 1364
+      width: 288
+      height: 128
+    spriteID: 5dc1d1ecf2cf3c742bc93442d5642e84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 1364}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_135
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 1364
+      width: 288
+      height: 128
+    spriteID: 7cb24a6376f26374ea083cece80af563
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 1364}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_136
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 1364
+      width: 288
+      height: 128
+    spriteID: d66d788800ee31b43a42123f364e97cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 1364}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_137
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 1364
+      width: 288
+      height: 128
+    spriteID: a9ae93bc7c94e12448f51b249db60394
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 1364}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_138
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 1364
+      width: 288
+      height: 128
+    spriteID: 3969822c497275048b909a390a176cb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 1364}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_139
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 1364
+      width: 288
+      height: 128
+    spriteID: cd78225646d32894c8f4155143bcd9e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 1364}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_140
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 1364
+      width: 288
+      height: 128
+    spriteID: b2116a5798b3a7e40821872fd1526729
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 1364}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_141
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 1364
+      width: 288
+      height: 128
+    spriteID: fb7404aae10e53048909ea455e5b508a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 1364}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_142
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 1364
+      width: 288
+      height: 128
+    spriteID: 4662e14e78115b7489c1c3a96c676916
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 1364}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_143
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1500
+      width: 288
+      height: 128
+    spriteID: 72951f9ef3cbc3d47bdfe7657bbd9cdb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1500}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_144
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 1500
+      width: 288
+      height: 128
+    spriteID: 44488feaae7731f4d9b769779e6bc941
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 1500}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_145
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 1500
+      width: 288
+      height: 128
+    spriteID: 061b216efb3fd2e4ba56b438c724d08f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 1500}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_146
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 1500
+      width: 288
+      height: 128
+    spriteID: 896e7a9c251185c4b917c888d839ef2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 1500}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_147
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 1500
+      width: 288
+      height: 128
+    spriteID: 4ea3604b02b094947818228a57279994
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 1500}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_148
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 1500
+      width: 288
+      height: 128
+    spriteID: 57de0620a3d1719478ea8a7ef49ddfb8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 1500}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_149
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 1500
+      width: 288
+      height: 128
+    spriteID: 8bc475ccfef53cf43b6fb30ff562b610
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 1500}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_150
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 1500
+      width: 288
+      height: 128
+    spriteID: 5c74737e7208869429e4c5dc02045546
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 1500}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_151
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 1500
+      width: 288
+      height: 128
+    spriteID: 54b2eaac2a2072e408418a8e0b05cbaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 1500}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_152
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 1500
+      width: 288
+      height: 128
+    spriteID: efa8d891db03297498b1300b8e2e8298
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 1500}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_153
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 1500
+      width: 288
+      height: 128
+    spriteID: ffc2e0f85569ba9448effd50cbb26f68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 1500}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_154
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 1500
+      width: 288
+      height: 128
+    spriteID: 919858aa215694c4387644a4225c6181
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 1500}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_155
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 1500
+      width: 288
+      height: 128
+    spriteID: f2b7319dfcb3a8145a70d203e0faa1b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 1500}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_156
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1636
+      width: 288
+      height: 128
+    spriteID: f5ffa29b8eec47f418c808da5d9440bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1636}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_157
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 1636
+      width: 288
+      height: 128
+    spriteID: 3ef3d4f1687427c4f93412bb19dfcd20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 1636}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_158
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 1636
+      width: 288
+      height: 128
+    spriteID: 033cbaabbabe6a14b9c38e1641ae0dc0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 1636}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_159
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 1636
+      width: 288
+      height: 128
+    spriteID: 4947ac175d25ca14aafc8c379e8aa42f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 1636}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_160
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 1636
+      width: 288
+      height: 128
+    spriteID: 3454e0d07fcaac54199f51e40d3644a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 1636}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_161
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 1636
+      width: 288
+      height: 128
+    spriteID: 2eadfb81687d1484386b1a85645dab9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 1636}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_162
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 1636
+      width: 288
+      height: 128
+    spriteID: a9d9ff4f828bfdf4ca425325cf7357ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 1636}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_163
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 1636
+      width: 288
+      height: 128
+    spriteID: 07d89e1779d08f849bc392083fdc5b83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 1636}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_164
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 1636
+      width: 288
+      height: 128
+    spriteID: d71f2aba430c1b646aeb03e521791f50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 1636}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_165
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 1636
+      width: 288
+      height: 128
+    spriteID: ac6f8eda90b14b240b3e769336ce7430
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 1636}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_166
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 1636
+      width: 288
+      height: 128
+    spriteID: 2bf4136b5168d324bae29ff135912446
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 1636}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_167
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 1636
+      width: 288
+      height: 128
+    spriteID: 04dfa5798e87e7f4cafc10ceee0b9a98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 1636}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_168
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 1636
+      width: 288
+      height: 128
+    spriteID: 3254d934feeca2041a15128d245e0869
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 1636}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_169
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1772
+      width: 288
+      height: 128
+    spriteID: 81894d9030f348647b7a763924b671ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1772}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_170
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 1772
+      width: 288
+      height: 128
+    spriteID: 42b55e3ab9d81c84ba863525396e778f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 1772}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_171
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 1772
+      width: 288
+      height: 128
+    spriteID: 9b535ad5cc9f4c34e86f04b2131f805b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 1772}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_172
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 1772
+      width: 288
+      height: 128
+    spriteID: 669844af242b4094fb836ded9085486a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 1772}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_173
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 1772
+      width: 288
+      height: 128
+    spriteID: 15aa6b03b48c58a4094f92449ff49f19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 1772}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_174
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 1772
+      width: 288
+      height: 128
+    spriteID: 7e384bca80ae1154597b799ad8a221a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 1772}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_175
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 1772
+      width: 288
+      height: 128
+    spriteID: 3c5a71a65cd0f5a42824c29070ab32e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 1772}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_176
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 1772
+      width: 288
+      height: 128
+    spriteID: 9d0a496086e3f1245bbebdbf1d42a597
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 1772}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_177
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 1772
+      width: 288
+      height: 128
+    spriteID: d6947c7ddb26c8543848db807fb4ff66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 1772}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_178
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 1772
+      width: 288
+      height: 128
+    spriteID: 0c712e93bfb1f4940ab0e9a33bf807c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 1772}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_179
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 1772
+      width: 288
+      height: 128
+    spriteID: 743b055807a75214ca4118fba19244f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 1772}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_180
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 1772
+      width: 288
+      height: 128
+    spriteID: ee71b4460943ece43b5b880db5e2925d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 1772}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_181
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 1772
+      width: 288
+      height: 128
+    spriteID: 63fe94a3ac10d7a489e719c8317fca6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 1772}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_182
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1908
+      width: 288
+      height: 128
+    spriteID: 5f93d02d18950d846a581c0fd7121c0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1908}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_183
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 1908
+      width: 288
+      height: 128
+    spriteID: c8a4a32e05c8c664b9612db03fb94419
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 1908}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_184
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 1908
+      width: 288
+      height: 128
+    spriteID: b72768149bff132438966c169958c96c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 1908}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_185
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 1908
+      width: 288
+      height: 128
+    spriteID: c2a6324a8db4a054da0970e3a0162adf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 1908}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_186
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1188
+      y: 1908
+      width: 288
+      height: 128
+    spriteID: 06c75390e9a8535469efd7df29849197
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1188, y: 1908}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_187
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1484
+      y: 1908
+      width: 288
+      height: 128
+    spriteID: 393b43c9117c38041a9db4cc980bfdbe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1484, y: 1908}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_188
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 1908
+      width: 288
+      height: 128
+    spriteID: 5d49f10b6f7954f4f940ab935163dba9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 1908}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_189
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 1908
+      width: 288
+      height: 128
+    spriteID: e4b6d70deeb05234b81143f35dc263f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 1908}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_190
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2372
+      y: 1908
+      width: 288
+      height: 128
+    spriteID: bafd10e456ded6c4093b272a30df0bd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2372, y: 1908}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_191
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 1908
+      width: 288
+      height: 128
+    spriteID: 0b75add984fc0894a8f76181644638eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 1908}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_192
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2964
+      y: 1908
+      width: 288
+      height: 128
+    spriteID: ce3a0d809a4eb0846b007a6650e0140a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2964, y: 1908}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_193
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3260
+      y: 1908
+      width: 288
+      height: 128
+    spriteID: f40bd1a482df542488e35ee6181d2914
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3260, y: 1908}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_194
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3556
+      y: 1908
+      width: 288
+      height: 128
+    spriteID: 8c1189be7807818469dceb26fdc4641a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3556, y: 1908}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_195
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2044
+      width: 288
+      height: 128
+    spriteID: cafa2febbb364b8488f7e20e2ef17542
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2044}
+  - name: metal_bladekeeper_FREE_v1.1_Frame_196
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 2044
+      width: 288
+      height: 128
+    spriteID: 20ce63b837e639140aa823a2c815e755
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 2044}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -199715594
+    name: metal_bladekeeper_FREE_v1.1
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: metal_bladekeeper_FREE_v1.1_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 7b8ca74ec55042d4d949a82b4a49fdd8
+    - name: metal_bladekeeper_FREE_v1.1_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 4d24a615cbe4ea54bb557224fbe3fe65
+    - name: metal_bladekeeper_FREE_v1.1_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 298c9082ae9206b4d90fc2d28b555b97
+    - name: metal_bladekeeper_FREE_v1.1_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: a8a8f8161ed701e40a82daa64cad738e
+    - name: metal_bladekeeper_FREE_v1.1_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 1995c1274ca1d7b4c87f2e5275e0edbc
+    - name: metal_bladekeeper_FREE_v1.1_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: cc5d9c6c695bcad4eb1018df1b5bb0ca
+    - name: metal_bladekeeper_FREE_v1.1_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 17b1784886c76cb4a88a4f0fec1f92cd
+    - name: metal_bladekeeper_FREE_v1.1_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 7b8101c9ac4ad5944a51f533d1247537
+    - name: metal_bladekeeper_FREE_v1.1_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 8c1b2bc746369d249891ed90413ce337
+    - name: metal_bladekeeper_FREE_v1.1_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: c8e5a324082986144bcbdca3f28aded5
+    - name: metal_bladekeeper_FREE_v1.1_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: fc7a7b49fc693cd40a5b67c90e6b60ad
+    - name: metal_bladekeeper_FREE_v1.1_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 9356cdc30389c5a45b0731373844d1d5
+    - name: metal_bladekeeper_FREE_v1.1_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 7de2b8d6315c3c345bfc0f3e2ec8d3ea
+    - name: metal_bladekeeper_FREE_v1.1_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 0510d45b749a135499983e490bc472d7
+    - name: metal_bladekeeper_FREE_v1.1_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: dcd65404f74967c4ab4abdec2798aa9b
+    - name: metal_bladekeeper_FREE_v1.1_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 51179bc8a49b97b408cb9ccac2465c27
+    - name: metal_bladekeeper_FREE_v1.1_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 2785c1c8335fba846822ceb2e0fc1d9a
+    - name: metal_bladekeeper_FREE_v1.1_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 383e3788576fa2c4097fdc3c9ec56525
+    - name: metal_bladekeeper_FREE_v1.1_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 15e37151bc678e644b75303143cdaca8
+    - name: metal_bladekeeper_FREE_v1.1_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: d4442fc205939ef4e96e3d47bf0c69e0
+    - name: metal_bladekeeper_FREE_v1.1_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 356b3db6076d8a6419493bf4f8520a32
+    - name: metal_bladekeeper_FREE_v1.1_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: cc7066e5f5e51694eb3ad8f00b922116
+    - name: metal_bladekeeper_FREE_v1.1_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 070e0dac6c760774b94b9c04d7e79966
+    - name: metal_bladekeeper_FREE_v1.1_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 691037f8a90534141bf7d1d17c48ee38
+    - name: metal_bladekeeper_FREE_v1.1_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: b824423d803f49a4d9edceba8fce459e
+    - name: metal_bladekeeper_FREE_v1.1_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: f999da1055c13e5449046e08ab62ca0e
+    - name: metal_bladekeeper_FREE_v1.1_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: a9313e574e0ca7143bbf453d1eeaff5c
+    - name: metal_bladekeeper_FREE_v1.1_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 671c334326b69f14d887141e198f2043
+    - name: metal_bladekeeper_FREE_v1.1_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 21491860363dba648b86c87d0a7541be
+    - name: metal_bladekeeper_FREE_v1.1_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 21cb82d23fe701e4e86f8f3e511b3124
+    - name: metal_bladekeeper_FREE_v1.1_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 2fe548afa898c9f45b9c1e461235fd71
+    - name: metal_bladekeeper_FREE_v1.1_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: d56bc6f69b783e34bba199f9073a2641
+    - name: metal_bladekeeper_FREE_v1.1_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 290a2d4e7690d6d469a45ad52cfa5397
+    - name: metal_bladekeeper_FREE_v1.1_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: b758b6bd16c8def4a908fa72d7d9758e
+    - name: metal_bladekeeper_FREE_v1.1_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: fd1288ab54042ff45a9e16f6a6e0e472
+    - name: metal_bladekeeper_FREE_v1.1_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 19152a3316d30d5498c146a3e2a7711a
+    - name: metal_bladekeeper_FREE_v1.1_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: fcf2c349bd45c2c49bcd384ed1decadc
+    - name: metal_bladekeeper_FREE_v1.1_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 15e1fbc935fef9643bc415df7b0fcbd9
+    - name: metal_bladekeeper_FREE_v1.1_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 990bc95b698d55f4884da4c42ad8b99f
+    - name: metal_bladekeeper_FREE_v1.1_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: be6790f943de4aa48a517d537de3aa39
+    - name: metal_bladekeeper_FREE_v1.1_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: f603c03f87b57764a85313860f9d0ea2
+    - name: metal_bladekeeper_FREE_v1.1_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 322cc84d9aca9ce46b7cafddd5f615f6
+    - name: metal_bladekeeper_FREE_v1.1_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 42dd42791737e3946adc5fcfcd67084f
+    - name: metal_bladekeeper_FREE_v1.1_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: f2c6377c10633a343970c654c9019792
+    - name: metal_bladekeeper_FREE_v1.1_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 93d90771bb11aca4798ff21242cfb921
+    - name: metal_bladekeeper_FREE_v1.1_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 1c6525826970bca4f991748d05983f44
+    - name: metal_bladekeeper_FREE_v1.1_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: d12b856beb6ad6444bbfeb5f036ec0d4
+    - name: metal_bladekeeper_FREE_v1.1_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 1417dcb8688b1854e9d0ed9b49764376
+    - name: metal_bladekeeper_FREE_v1.1_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 29c92d3e7b8e5b44ba6cb2fde17d146f
+    - name: metal_bladekeeper_FREE_v1.1_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 1cbed2a863cd98c4d9103ede4f2e8398
+    - name: metal_bladekeeper_FREE_v1.1_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: d8d5330b5e8b7a84ea612120c551e149
+    - name: metal_bladekeeper_FREE_v1.1_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: d0eb6a42ccf937d468204cf76ef5e177
+    - name: metal_bladekeeper_FREE_v1.1_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 069c93d3f5cafd349a004215cca99854
+    - name: metal_bladekeeper_FREE_v1.1_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 1f803fe67d2b2524794f9b554bfa7844
+    - name: metal_bladekeeper_FREE_v1.1_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 68c911ad53f4208478bea562fd6d9507
+    - name: metal_bladekeeper_FREE_v1.1_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 4532e9843d6316d479f9e846c244c687
+    - name: metal_bladekeeper_FREE_v1.1_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 59d2946694305114195cd5e9036c3e1b
+    - name: metal_bladekeeper_FREE_v1.1_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 967346cbe5cfb9f44bb30f15eaae2476
+    - name: metal_bladekeeper_FREE_v1.1_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 171f191793c3c2243ab213d06772ecc5
+    - name: metal_bladekeeper_FREE_v1.1_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 6201219d3156c9947a4219b7b131a974
+    - name: metal_bladekeeper_FREE_v1.1_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 118b7071243a4f04390c6bd3419293df
+    - name: metal_bladekeeper_FREE_v1.1_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 586bea3e122de3d4ab111230915d834b
+    - name: metal_bladekeeper_FREE_v1.1_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: e027f45e7944bbc46b8c27d6c0062df5
+    - name: metal_bladekeeper_FREE_v1.1_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: ed4f4ec7b67b0074593518a70d57ae8b
+    - name: metal_bladekeeper_FREE_v1.1_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: f0a5527ed2280b4468a32a3f696841ef
+    - name: metal_bladekeeper_FREE_v1.1_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 30589eab51ab0e94bb222d03a834d1de
+    - name: metal_bladekeeper_FREE_v1.1_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 886ca42a1a6bc944ab5271f50d499e22
+    - name: metal_bladekeeper_FREE_v1.1_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: cc7bad8a266b3404fb333e4df99e1e82
+    - name: metal_bladekeeper_FREE_v1.1_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 008a0c376f7da764cab2dbe8ee0a2550
+    - name: metal_bladekeeper_FREE_v1.1_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 0378a3ecf296e8648a5c8eb2921d9fcf
+    - name: metal_bladekeeper_FREE_v1.1_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 57e59d61404ad69478cfeff94f067aea
+    - name: metal_bladekeeper_FREE_v1.1_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 10cc88f8ec8f5be4dbde8538bb84d8c1
+    - name: metal_bladekeeper_FREE_v1.1_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: b94e8fa7b22f6e64292341ae10cbfec0
+    - name: metal_bladekeeper_FREE_v1.1_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 9dbac5a573e5f8449857131ebf6ab8ee
+    - name: metal_bladekeeper_FREE_v1.1_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 41c57f713db6dc34a9e88ea3af815d7f
+    - name: metal_bladekeeper_FREE_v1.1_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 2b980504e012d064aa577fda35347166
+    - name: metal_bladekeeper_FREE_v1.1_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: d2857cab0e0502b45af936a6aeb168c2
+    - name: metal_bladekeeper_FREE_v1.1_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: b114e1da8426e9f46ae9816432d40828
+    - name: metal_bladekeeper_FREE_v1.1_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 43202300adfe4274aafff74f13baba51
+    - name: metal_bladekeeper_FREE_v1.1_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 9d339cdd59be087478670329a42c5cef
+    - name: metal_bladekeeper_FREE_v1.1_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 27cd712ff4f24714bbd519573ea3b2c5
+    - name: metal_bladekeeper_FREE_v1.1_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: a14a73613b06eef448ec9c9e237ece71
+    - name: metal_bladekeeper_FREE_v1.1_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: e1f0bd71522b6614687023fe242945d0
+    - name: metal_bladekeeper_FREE_v1.1_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: dff17459dd775ad4c89dfa915fdc3cc3
+    - name: metal_bladekeeper_FREE_v1.1_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 3e58848f9a327504694a314590ca75c0
+    - name: metal_bladekeeper_FREE_v1.1_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: f5b3119a6a24a5843817b3bca72feb6f
+    - name: metal_bladekeeper_FREE_v1.1_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: decac212fd525d94e93407f3402f5ad0
+    - name: metal_bladekeeper_FREE_v1.1_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 5cbd5878aab28c54198749a65e935754
+    - name: metal_bladekeeper_FREE_v1.1_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 131b008e6643bdf4895a25d84fc58324
+    - name: metal_bladekeeper_FREE_v1.1_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 17888de3aac9e2449b2a8178b5a0c742
+    - name: metal_bladekeeper_FREE_v1.1_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 5efab10287b22f445bce3ddd6da119b0
+    - name: metal_bladekeeper_FREE_v1.1_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: faf8d067af2b0294b818ef00f07e45c2
+    - name: metal_bladekeeper_FREE_v1.1_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 718d0eaee129faf4588f6b911082dd46
+    - name: metal_bladekeeper_FREE_v1.1_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 0803d62a189aaaa4d8715f4ec3636120
+    - name: metal_bladekeeper_FREE_v1.1_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 76a74cd1d9b168646a3d7641faf864c3
+    - name: metal_bladekeeper_FREE_v1.1_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 9aee4df8e43577948954340e41a178ce
+    - name: metal_bladekeeper_FREE_v1.1_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 9dab4d41abdd23c46af590f1f877cb46
+    - name: metal_bladekeeper_FREE_v1.1_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 0f07482f60c1ff1449eb77ed98699e30
+    - name: metal_bladekeeper_FREE_v1.1_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 74b3c89846f6c43438c2b440d030dabb
+    - name: metal_bladekeeper_FREE_v1.1_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 2e766519a6c7a4c418b52919088813d4
+    - name: metal_bladekeeper_FREE_v1.1_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: c7a43d860a1fb2b4f87d717f24229666
+    - name: metal_bladekeeper_FREE_v1.1_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: e034afb744f54e442baae1dc6da9b1b2
+    - name: metal_bladekeeper_FREE_v1.1_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 55340c6dca95c3d49a566f630abfa3b3
+    - name: metal_bladekeeper_FREE_v1.1_Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 700eec76f5f1b164aacacc5cb5434589
+    - name: metal_bladekeeper_FREE_v1.1_Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 3bf4b85ce8555ff4b94ba63cf0111b2b
+    - name: metal_bladekeeper_FREE_v1.1_Frame_105
+      frameIndex: 105
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: a3a58c6174d8cee43b3a441a2132571c
+    - name: metal_bladekeeper_FREE_v1.1_Frame_106
+      frameIndex: 106
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 2fa88f0cd14c76e448a710d799bf974a
+    - name: metal_bladekeeper_FREE_v1.1_Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: e1f762149b9005044ab0c0bfe7c53cf6
+    - name: metal_bladekeeper_FREE_v1.1_Frame_108
+      frameIndex: 108
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: d35c4cdd9b0c4db418a50c881fa904db
+    - name: metal_bladekeeper_FREE_v1.1_Frame_109
+      frameIndex: 109
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 9bd4a5d3c24e83f4c91c1390ec525035
+    - name: metal_bladekeeper_FREE_v1.1_Frame_110
+      frameIndex: 110
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: fa045e791990aef4bbf1227fe6cda5c8
+    - name: metal_bladekeeper_FREE_v1.1_Frame_111
+      frameIndex: 111
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 28da9784644aa3f498fb4c21e21dc7bb
+    - name: metal_bladekeeper_FREE_v1.1_Frame_112
+      frameIndex: 112
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: d7e9fbbf1e356bf44b971a5a8fb96417
+    - name: metal_bladekeeper_FREE_v1.1_Frame_113
+      frameIndex: 113
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 35f2251e6722e6a4eab398da0915d110
+    - name: metal_bladekeeper_FREE_v1.1_Frame_114
+      frameIndex: 114
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: d2dcb517f96f2524e94661e755951f4e
+    - name: metal_bladekeeper_FREE_v1.1_Frame_115
+      frameIndex: 115
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 551f0013f5f28f04fa9e48903d2cdcd6
+    - name: metal_bladekeeper_FREE_v1.1_Frame_116
+      frameIndex: 116
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 57358c3c1dd453e45b7752af108f740f
+    - name: metal_bladekeeper_FREE_v1.1_Frame_117
+      frameIndex: 117
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 313dae0b8e208f44291c89a9b12e9a3d
+    - name: metal_bladekeeper_FREE_v1.1_Frame_118
+      frameIndex: 118
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: cb016596cc687a143a08af4c8355c7d4
+    - name: metal_bladekeeper_FREE_v1.1_Frame_119
+      frameIndex: 119
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: f2204cc30fe56a244b9f40f795d0a05f
+    - name: metal_bladekeeper_FREE_v1.1_Frame_120
+      frameIndex: 120
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: d50b06a3442ba624e818e94c15c8cf19
+    - name: metal_bladekeeper_FREE_v1.1_Frame_121
+      frameIndex: 121
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: bfab44e44e778e644a4ab66a1f69ff9a
+    - name: metal_bladekeeper_FREE_v1.1_Frame_122
+      frameIndex: 122
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 2c58f567d6658004ba8e0e8af3606e46
+    - name: metal_bladekeeper_FREE_v1.1_Frame_123
+      frameIndex: 123
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 2515b4a4ed8d0c04a97a933a1c1e58e2
+    - name: metal_bladekeeper_FREE_v1.1_Frame_124
+      frameIndex: 124
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 81fe98bac974b2649a0899a2c492d779
+    - name: metal_bladekeeper_FREE_v1.1_Frame_125
+      frameIndex: 125
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 527c314bd0c080e4a8a4e4f2b9a0a97e
+    - name: metal_bladekeeper_FREE_v1.1_Frame_126
+      frameIndex: 126
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 4e3bdf493af7c624d979d9d0e198de33
+    - name: metal_bladekeeper_FREE_v1.1_Frame_127
+      frameIndex: 127
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 9a2158741b35c494a9e8266bdce14048
+    - name: metal_bladekeeper_FREE_v1.1_Frame_128
+      frameIndex: 128
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 3c173cb6d58b17d42ad3ad2e4f15f753
+    - name: metal_bladekeeper_FREE_v1.1_Frame_129
+      frameIndex: 129
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 180a7ed96ee566c4aba8fca85a994895
+    - name: metal_bladekeeper_FREE_v1.1_Frame_130
+      frameIndex: 130
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 691fb9c5f4152194d96f5f61ab874683
+    - name: metal_bladekeeper_FREE_v1.1_Frame_131
+      frameIndex: 131
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 74eaa0a661a96c749b6802be2ec79df8
+    - name: metal_bladekeeper_FREE_v1.1_Frame_132
+      frameIndex: 132
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 4fc51d7831ab2694e92ea8f5251f727a
+    - name: metal_bladekeeper_FREE_v1.1_Frame_133
+      frameIndex: 133
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: cc913523ef3818449858ebcd9bc2db62
+    - name: metal_bladekeeper_FREE_v1.1_Frame_134
+      frameIndex: 134
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 5dc1d1ecf2cf3c742bc93442d5642e84
+    - name: metal_bladekeeper_FREE_v1.1_Frame_135
+      frameIndex: 135
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 7cb24a6376f26374ea083cece80af563
+    - name: metal_bladekeeper_FREE_v1.1_Frame_136
+      frameIndex: 136
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: d66d788800ee31b43a42123f364e97cd
+    - name: metal_bladekeeper_FREE_v1.1_Frame_137
+      frameIndex: 137
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: a9ae93bc7c94e12448f51b249db60394
+    - name: metal_bladekeeper_FREE_v1.1_Frame_138
+      frameIndex: 138
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 3969822c497275048b909a390a176cb4
+    - name: metal_bladekeeper_FREE_v1.1_Frame_139
+      frameIndex: 139
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: cd78225646d32894c8f4155143bcd9e6
+    - name: metal_bladekeeper_FREE_v1.1_Frame_140
+      frameIndex: 140
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: b2116a5798b3a7e40821872fd1526729
+    - name: metal_bladekeeper_FREE_v1.1_Frame_141
+      frameIndex: 141
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: fb7404aae10e53048909ea455e5b508a
+    - name: metal_bladekeeper_FREE_v1.1_Frame_142
+      frameIndex: 142
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 4662e14e78115b7489c1c3a96c676916
+    - name: metal_bladekeeper_FREE_v1.1_Frame_143
+      frameIndex: 143
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 72951f9ef3cbc3d47bdfe7657bbd9cdb
+    - name: metal_bladekeeper_FREE_v1.1_Frame_144
+      frameIndex: 144
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 44488feaae7731f4d9b769779e6bc941
+    - name: metal_bladekeeper_FREE_v1.1_Frame_145
+      frameIndex: 145
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 061b216efb3fd2e4ba56b438c724d08f
+    - name: metal_bladekeeper_FREE_v1.1_Frame_146
+      frameIndex: 146
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 896e7a9c251185c4b917c888d839ef2e
+    - name: metal_bladekeeper_FREE_v1.1_Frame_147
+      frameIndex: 147
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 4ea3604b02b094947818228a57279994
+    - name: metal_bladekeeper_FREE_v1.1_Frame_148
+      frameIndex: 148
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 57de0620a3d1719478ea8a7ef49ddfb8
+    - name: metal_bladekeeper_FREE_v1.1_Frame_149
+      frameIndex: 149
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 8bc475ccfef53cf43b6fb30ff562b610
+    - name: metal_bladekeeper_FREE_v1.1_Frame_150
+      frameIndex: 150
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 5c74737e7208869429e4c5dc02045546
+    - name: metal_bladekeeper_FREE_v1.1_Frame_151
+      frameIndex: 151
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 54b2eaac2a2072e408418a8e0b05cbaf
+    - name: metal_bladekeeper_FREE_v1.1_Frame_152
+      frameIndex: 152
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: efa8d891db03297498b1300b8e2e8298
+    - name: metal_bladekeeper_FREE_v1.1_Frame_153
+      frameIndex: 153
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: ffc2e0f85569ba9448effd50cbb26f68
+    - name: metal_bladekeeper_FREE_v1.1_Frame_154
+      frameIndex: 154
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 919858aa215694c4387644a4225c6181
+    - name: metal_bladekeeper_FREE_v1.1_Frame_155
+      frameIndex: 155
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: f2b7319dfcb3a8145a70d203e0faa1b0
+    - name: metal_bladekeeper_FREE_v1.1_Frame_156
+      frameIndex: 156
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: f5ffa29b8eec47f418c808da5d9440bd
+    - name: metal_bladekeeper_FREE_v1.1_Frame_157
+      frameIndex: 157
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 3ef3d4f1687427c4f93412bb19dfcd20
+    - name: metal_bladekeeper_FREE_v1.1_Frame_158
+      frameIndex: 158
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 033cbaabbabe6a14b9c38e1641ae0dc0
+    - name: metal_bladekeeper_FREE_v1.1_Frame_159
+      frameIndex: 159
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 4947ac175d25ca14aafc8c379e8aa42f
+    - name: metal_bladekeeper_FREE_v1.1_Frame_160
+      frameIndex: 160
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 3454e0d07fcaac54199f51e40d3644a1
+    - name: metal_bladekeeper_FREE_v1.1_Frame_161
+      frameIndex: 161
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 2eadfb81687d1484386b1a85645dab9a
+    - name: metal_bladekeeper_FREE_v1.1_Frame_162
+      frameIndex: 162
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: a9d9ff4f828bfdf4ca425325cf7357ae
+    - name: metal_bladekeeper_FREE_v1.1_Frame_163
+      frameIndex: 163
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 07d89e1779d08f849bc392083fdc5b83
+    - name: metal_bladekeeper_FREE_v1.1_Frame_164
+      frameIndex: 164
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: d71f2aba430c1b646aeb03e521791f50
+    - name: metal_bladekeeper_FREE_v1.1_Frame_165
+      frameIndex: 165
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: ac6f8eda90b14b240b3e769336ce7430
+    - name: metal_bladekeeper_FREE_v1.1_Frame_166
+      frameIndex: 166
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 2bf4136b5168d324bae29ff135912446
+    - name: metal_bladekeeper_FREE_v1.1_Frame_167
+      frameIndex: 167
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 04dfa5798e87e7f4cafc10ceee0b9a98
+    - name: metal_bladekeeper_FREE_v1.1_Frame_168
+      frameIndex: 168
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 3254d934feeca2041a15128d245e0869
+    - name: metal_bladekeeper_FREE_v1.1_Frame_169
+      frameIndex: 169
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 81894d9030f348647b7a763924b671ff
+    - name: metal_bladekeeper_FREE_v1.1_Frame_170
+      frameIndex: 170
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 42b55e3ab9d81c84ba863525396e778f
+    - name: metal_bladekeeper_FREE_v1.1_Frame_171
+      frameIndex: 171
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 9b535ad5cc9f4c34e86f04b2131f805b
+    - name: metal_bladekeeper_FREE_v1.1_Frame_172
+      frameIndex: 172
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 669844af242b4094fb836ded9085486a
+    - name: metal_bladekeeper_FREE_v1.1_Frame_173
+      frameIndex: 173
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 15aa6b03b48c58a4094f92449ff49f19
+    - name: metal_bladekeeper_FREE_v1.1_Frame_174
+      frameIndex: 174
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 7e384bca80ae1154597b799ad8a221a2
+    - name: metal_bladekeeper_FREE_v1.1_Frame_175
+      frameIndex: 175
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 3c5a71a65cd0f5a42824c29070ab32e1
+    - name: metal_bladekeeper_FREE_v1.1_Frame_176
+      frameIndex: 176
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 9d0a496086e3f1245bbebdbf1d42a597
+    - name: metal_bladekeeper_FREE_v1.1_Frame_177
+      frameIndex: 177
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: d6947c7ddb26c8543848db807fb4ff66
+    - name: metal_bladekeeper_FREE_v1.1_Frame_178
+      frameIndex: 178
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 0c712e93bfb1f4940ab0e9a33bf807c2
+    - name: metal_bladekeeper_FREE_v1.1_Frame_179
+      frameIndex: 179
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 743b055807a75214ca4118fba19244f9
+    - name: metal_bladekeeper_FREE_v1.1_Frame_180
+      frameIndex: 180
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: ee71b4460943ece43b5b880db5e2925d
+    - name: metal_bladekeeper_FREE_v1.1_Frame_181
+      frameIndex: 181
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 63fe94a3ac10d7a489e719c8317fca6d
+    - name: metal_bladekeeper_FREE_v1.1_Frame_182
+      frameIndex: 182
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 5f93d02d18950d846a581c0fd7121c0d
+    - name: metal_bladekeeper_FREE_v1.1_Frame_183
+      frameIndex: 183
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: c8a4a32e05c8c664b9612db03fb94419
+    - name: metal_bladekeeper_FREE_v1.1_Frame_184
+      frameIndex: 184
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: b72768149bff132438966c169958c96c
+    - name: metal_bladekeeper_FREE_v1.1_Frame_185
+      frameIndex: 185
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: c2a6324a8db4a054da0970e3a0162adf
+    - name: metal_bladekeeper_FREE_v1.1_Frame_186
+      frameIndex: 186
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 06c75390e9a8535469efd7df29849197
+    - name: metal_bladekeeper_FREE_v1.1_Frame_187
+      frameIndex: 187
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 393b43c9117c38041a9db4cc980bfdbe
+    - name: metal_bladekeeper_FREE_v1.1_Frame_188
+      frameIndex: 188
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 5d49f10b6f7954f4f940ab935163dba9
+    - name: metal_bladekeeper_FREE_v1.1_Frame_189
+      frameIndex: 189
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: e4b6d70deeb05234b81143f35dc263f2
+    - name: metal_bladekeeper_FREE_v1.1_Frame_190
+      frameIndex: 190
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: bafd10e456ded6c4093b272a30df0bd6
+    - name: metal_bladekeeper_FREE_v1.1_Frame_191
+      frameIndex: 191
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 0b75add984fc0894a8f76181644638eb
+    - name: metal_bladekeeper_FREE_v1.1_Frame_192
+      frameIndex: 192
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: ce3a0d809a4eb0846b007a6650e0140a
+    - name: metal_bladekeeper_FREE_v1.1_Frame_193
+      frameIndex: 193
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: f40bd1a482df542488e35ee6181d2914
+    - name: metal_bladekeeper_FREE_v1.1_Frame_194
+      frameIndex: 194
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 8c1189be7807818469dceb26fdc4641a
+    - name: metal_bladekeeper_FREE_v1.1_Frame_195
+      frameIndex: 195
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: cafa2febbb364b8488f7e20e2ef17542
+    - name: metal_bladekeeper_FREE_v1.1_Frame_196
+      frameIndex: 196
+      cellRect:
+        x: 0
+        y: 0
+        width: 288
+        height: 128
+      spriteId: 20ce63b837e639140aa823a2c815e755
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 288, y: 128}

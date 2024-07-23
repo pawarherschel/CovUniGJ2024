@@ -79,3 +79,5 @@ Assets/Plugins/Editor/JetBrains*
 
 # Visual Studio Code
 .vscode/
+*.zip
+*.zip.meta
