@@ -9526,7 +9526,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1261266354165851677, guid: 6dce9f7c3596bbf4c95adad6c3e112e6, type: 3}
       propertyPath: horizontalSpeed
-      value: 0
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 3150593873370065960, guid: 6dce9f7c3596bbf4c95adad6c3e112e6, type: 3}
       propertyPath: m_Name
@@ -9578,6 +9578,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627850826557440193, guid: 6dce9f7c3596bbf4c95adad6c3e112e6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289415542522126647, guid: 6dce9f7c3596bbf4c95adad6c3e112e6, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289415542522126647, guid: 6dce9f7c3596bbf4c95adad6c3e112e6, type: 3}
+      propertyPath: m_Offset.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5543085824430298473, guid: 6dce9f7c3596bbf4c95adad6c3e112e6, type: 3}
