@@ -38,8 +38,14 @@ namespace Script
             if (_rigidbody2D.velocity.x < -maxHSpeed || _rigidbody2D.velocity.x > maxHSpeed)
             {
                 var sign = _rigidbody2D.velocity.x >= 0 ? 1 : -1;
+                print("new speed: " + sign * maxHSpeed);
                 _rigidbody2D.velocity = new Vector2(sign * maxHSpeed, _rigidbody2D.velocity.y);
             }
+        }
+
+        private void OnTriggerStay2D(Collider2D other)
+        {
+            _canJump = true;
         }
 
         private void OnTriggerEnter2D(Collider2D other)
