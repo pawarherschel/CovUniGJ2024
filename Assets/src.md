@@ -8,3 +8,6 @@ the elementals https://itch.io/c/1853936/elementals
 Boss: Demon Slime https://chierit.itch.io/boss-demon-slime
 
 2D Pixel Art Golems Asset Pack https://monopixelart.itch.io/golems-pack
+
+Boss: Frost Guardian https://chierit.itch.io/boss-frost-guardian
+

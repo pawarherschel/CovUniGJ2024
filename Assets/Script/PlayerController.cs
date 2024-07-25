@@ -1,6 +1,7 @@
 using System;
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Debug = System.Diagnostics.Debug;
 
 namespace Script
@@ -12,6 +13,7 @@ namespace Script
         [SerializeField] private float maxHSpeed = 3f;
         [SerializeField] private float horizontalSpeed = 10f;
         [SerializeField] private float jumpForce = 7.5f;
+        [SerializeField] private int healthPoints = 2;
 
         private PrefabSwitcherOnTimer _switcherOnTimer;
         
@@ -74,15 +76,18 @@ namespace Script
 
         private void OnCollisionEnter2D([NotNull] Collision2D other)
         {
-            if (other.gameObject.CompareTag("Enemy"))
+            if (!other.gameObject.CompareTag("Enemy")) return;
+            
+            healthPoints--;
+            if (healthPoints < 0)
             {
                 GameOver();
             }
         }
 
-        private void GameOver()
+        private static void GameOver()
         {
-            throw new NotImplementedException();
+            SceneManager.LoadScene("Game Over");
         }
     }
 }
