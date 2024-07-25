@@ -1,11 +1,9 @@
-using System;
-using JetBrains.Annotations;
+﻿using System;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Script
 {
-    public sealed class PrefabSwitcherOnTimer : MonoBehaviour
+    public sealed class PlayerPrefabSwitcherOnTimer : MonoBehaviour
     {
         
         [SerializeField] private GameObject[] prefabs;
@@ -32,12 +30,12 @@ namespace Script
                 Destroy(_currentSprite);
                 System.Diagnostics.Debug.Assert(value, nameof(value) + " != null");
                 _currentSprite = Instantiate(value, this.transform);
-                CurrentInternalPlayerController = _currentSprite.GetComponent<InternalPlayerController>();
+                CurrentInternalController = _currentSprite.GetComponent<InternalPlayerController>();
                 // currentAnimator = _currentSprite.GetComponent<Animator>();
             }
         }
 
-        internal InternalPlayerController CurrentInternalPlayerController;
+        internal InternalPlayerController CurrentInternalController;
         // public Animator currentAnimator;
 
         private float _changeTimer;
@@ -69,9 +67,9 @@ namespace Script
         private void TimerJustCompleted()
         {
             _changeTimer = 0f;
-            
+
+            print("Switching Player");
             SpriteIndex++;
         }
     }
-
 }

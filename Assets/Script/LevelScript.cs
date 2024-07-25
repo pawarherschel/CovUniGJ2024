@@ -9,8 +9,7 @@ namespace Script
 
         public int noOfRemainingEnemies;
 
-        [SerializeField] private Object nextScene;
-        private Scene _nextScene;
+        [SerializeField] private string nextScene;
         
         // Start is called before the first frame update
         private void Start()
@@ -34,7 +33,7 @@ namespace Script
 
             if (noOfRemainingEnemies == 0)
             {
-                SceneManager.LoadScene(nextScene.name);
+                SceneManager.LoadScene(nextScene);
             }
         }
     }
