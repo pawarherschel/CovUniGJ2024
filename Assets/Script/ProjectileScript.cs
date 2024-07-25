@@ -9,6 +9,8 @@ namespace Script
     public sealed class ProjectileScript : MonoBehaviour
     {
         private Rigidbody2D _rigidbody2D;
+        private Vector2 _velocity;
+        
         [SerializeField] private bool affectedByGravity = false;
         [SerializeField] private float timeToLive = 0f;
         
@@ -24,14 +26,23 @@ namespace Script
             Destroy(this.gameObject, timeToLive);
         }
 
+        private void Update()
+        {
+            _rigidbody2D.velocity = _velocity;
+        }
+
         internal void SetVelocity(Vector2 velocity)
         {
-            if (velocity == Vector2.zero)
-            {
-                return;
-            }
+            _velocity = velocity;
             
-            _rigidbody2D.velocity = velocity;
+            if (!(velocity.x < 0)) return;
+            
+            var spriteRenderer = this.GetComponent<SpriteRenderer>();
+
+            if (spriteRenderer)
+            {
+                spriteRenderer.flipX = true;
+            }
         }
 
         private void OnTriggerEnter2D([NotNull] Collider2D other)
@@ -41,7 +52,7 @@ namespace Script
             Destroy(this.gameObject);
 
             var levelScript = GameObject.FindObjectOfType<LevelScript>();
-
+            
             Debug.Assert(levelScript != null, nameof(levelScript) + " != null");
             levelScript.noOfRemainingEnemies -= 1;
         }
