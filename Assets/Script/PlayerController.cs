@@ -1,6 +1,7 @@
 using System;
 using JetBrains.Annotations;
 using UnityEngine;
+using Debug = System.Diagnostics.Debug;
 
 namespace Script
 {
@@ -65,6 +66,8 @@ namespace Script
             }
             else
             {
+                Debug.Assert(_switcherOnTimer != null, nameof(_switcherOnTimer) + " != null");
+                Debug.Assert(_switcherOnTimer.CurrentInternalPlayerController != null, "_switcherOnTimer.CurrentInternalPlayerController != null");
                 _switcherOnTimer.CurrentInternalPlayerController.ResetRunning();
             }
         }

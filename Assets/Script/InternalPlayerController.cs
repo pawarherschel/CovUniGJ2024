@@ -27,8 +27,6 @@ namespace Script
             
             Assert.IsNotNull(projectile);
             Assert.IsNotNull(projectileLocation);
-            
-            print(projectileVelocity.x +" "+ projectileVelocity.y);
         }
 
         private void Update()
