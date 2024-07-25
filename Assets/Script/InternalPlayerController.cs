@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using UnityEngine.Assertions;
+using UnityEngine.Serialization;
 
 namespace Script
 {
@@ -11,12 +13,39 @@ namespace Script
         private static readonly int JumpTrigger = Animator.StringToHash("jump");
         private SpriteRenderer _spriteRenderer;
         private static readonly int RunBool = Animator.StringToHash("run");
+        private bool _prevAttackAnimationEnding;
+
+        [SerializeField] private GameObject projectile;
+        [SerializeField] private Transform projectileLocation;
+        [SerializeField] private Vector2 projectileVelocity = Vector2.zero;
 
         // Start is called before the first frame update
         private void Start()
         {
             _animator = this.GetComponent<Animator>();
             _spriteRenderer = this.GetComponent<SpriteRenderer>();
+            
+            Assert.IsNotNull(projectile);
+            Assert.IsNotNull(projectileLocation);
+            
+            print(projectileVelocity.x +" "+ projectileVelocity.y);
+        }
+
+        private void Update()
+        {
+            var animationState = _animator.GetCurrentAnimatorStateInfo(0);
+
+            var attackAnimationEnding = (animationState.IsName("atk") && animationState.normalizedTime > 0.2);
+            var attackJustConnected = !_prevAttackAnimationEnding && attackAnimationEnding;
+
+            if (attackJustConnected)
+            {
+                var projectileInstance = Instantiate(projectile, projectileLocation);
+                var projectileScript = projectileInstance.GetComponent<ProjectileScript>();
+                projectileScript.SetVelocity(projectileVelocity);
+            }
+
+            _prevAttackAnimationEnding = attackAnimationEnding;
         }
 
         internal void SetRunning()
