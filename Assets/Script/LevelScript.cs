@@ -22,12 +22,10 @@ namespace Script
             noOfRemainingEnemies = _totalNoOfEnemies;
 
             System.Diagnostics.Debug.Assert(nextScene != null, nameof(nextScene) + " != null");
-
-            _nextScene = SceneManager.GetSceneByName(nextScene.name);
         }
 
         // Update is called once per frame
-        void Update()
+        private void Update()
         {
             if (noOfRemainingEnemies <= 0)
             {
@@ -36,7 +34,7 @@ namespace Script
 
             if (noOfRemainingEnemies == 0)
             {
-                SceneManager.SetActiveScene(_nextScene);
+                SceneManager.LoadScene(nextScene.name);
             }
         }
     }
