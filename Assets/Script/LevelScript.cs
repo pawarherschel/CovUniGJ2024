@@ -10,6 +10,7 @@ namespace Script
         public int noOfRemainingEnemies;
 
         [SerializeField] private string nextScene;
+        // private Scene _nextScene;
         
         // Start is called before the first frame update
         private void Start()
