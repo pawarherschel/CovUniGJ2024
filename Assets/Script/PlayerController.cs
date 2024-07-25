@@ -9,11 +9,12 @@ namespace Script
     public sealed class PlayerController : MonoBehaviour
     {
         private Rigidbody2D _rigidbody2D;
-        
+        private bool inWater = false;
+
         [SerializeField] private float maxHSpeed = 3f;
         [SerializeField] private float horizontalSpeed = 10f;
         [SerializeField] private float jumpForce = 7.5f;
-        [SerializeField] private int healthPoints = 2;
+        [SerializeField] private float healthPoints = 3;
 
         private PrefabSwitcherOnTimer _switcherOnTimer;
         
@@ -28,6 +29,7 @@ namespace Script
         private void Update()
         {
             var axis = Input.GetAxis("Horizontal");
+            var swimAxis = Input.GetAxis("Vertical");
             
             _rigidbody2D.AddForce(Vector2.right * (axis * horizontalSpeed));
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
@@ -38,8 +40,13 @@ namespace Script
                     _rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                 }
             }
+
+            if (inWater && Input.GetAxis("Vertical") != 0)
+            {
+                _rigidbody2D.AddForce(horizontalSpeed * swimAxis * Vector2.up);
+            }
             
-            if (Input.GetKeyDown(KeyCode.J))
+            if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 _switcherOnTimer.CurrentInternalPlayerController.Attack();
             }
@@ -71,6 +78,31 @@ namespace Script
                 Debug.Assert(_switcherOnTimer != null, nameof(_switcherOnTimer) + " != null");
                 Debug.Assert(_switcherOnTimer.CurrentInternalPlayerController != null, "_switcherOnTimer.CurrentInternalPlayerController != null");
                 _switcherOnTimer.CurrentInternalPlayerController.ResetRunning();
+            }
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.layer == LayerMask.NameToLayer("Water"))
+            {
+                inWater = true;
+            }
+
+            if (other.gameObject.layer == LayerMask.NameToLayer("Lava"))
+            {
+                healthPoints -= 0.5f;
+                if (healthPoints < 0)
+                {
+                    GameOver();
+                }
+            }
+        }
+
+        private void OnTriggerExit2D(Collider2D other)
+        {
+            if (other.gameObject.layer == LayerMask.NameToLayer("Water"))
+            {
+                inWater = false;
             }
         }
 
