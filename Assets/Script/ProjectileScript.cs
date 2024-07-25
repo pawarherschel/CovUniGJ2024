@@ -2,6 +2,7 @@ using System;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Assertions;
+using Debug = System.Diagnostics.Debug;
 
 namespace Script
 {
@@ -35,11 +36,14 @@ namespace Script
 
         private void OnTriggerEnter2D([NotNull] Collider2D other)
         {
-            if (other.CompareTag("Enemy"))
-            {
-                Destroy(other.gameObject);
-                Destroy(this.gameObject);
-            }
+            if (!other.CompareTag("Enemy")) return;
+            Destroy(other.gameObject);
+            Destroy(this.gameObject);
+
+            var levelScript = GameObject.FindObjectOfType<LevelScript>();
+
+            Debug.Assert(levelScript != null, nameof(levelScript) + " != null");
+            levelScript.noOfRemainingEnemies -= 1;
         }
     }
 }

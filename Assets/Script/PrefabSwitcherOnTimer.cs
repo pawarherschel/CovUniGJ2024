@@ -48,7 +48,7 @@ namespace Script
         private void Start()
         {
             System.Diagnostics.Debug.Assert(prefabs.Length > 1, "prefabs.Length > 1");
-            print(prefabs.Length);
+            print("prefabs.Length " +prefabs.Length);
 
             SpriteIndex = 0;
         }
