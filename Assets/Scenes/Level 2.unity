@@ -10361,7 +10361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noOfRemainingEnemies: 0
-  nextScene: {fileID: 102900000, guid: a8fff1eabf60f614a8f15675056dce7b, type: 3}
+  nextScene: Boss Level
 --- !u!4 &1833092175
 Transform:
   m_ObjectHideFlags: 0
