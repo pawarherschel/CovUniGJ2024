@@ -1,8 +1,4 @@
-using System;
-using Unity.Mathematics;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Script
 {
@@ -26,7 +22,9 @@ namespace Script
         // Update is called once per frame
         private void Update()
         {
-            _rigidbody2D.AddForce(Vector2.right * (Input.GetAxis("Horizontal") * horizontalSpeed));
+            var axis = Input.GetAxis("Horizontal");
+            
+            _rigidbody2D.AddForce(Vector2.right * (axis * horizontalSpeed));
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
             {
                 var didJump = _switcherOnTimer.CurrentInternalPlayerController.Jump();
@@ -41,9 +39,16 @@ namespace Script
                 _switcherOnTimer.CurrentInternalPlayerController.Attack();
             }
             
-            if (_rigidbody2D.velocity.x < -maxHSpeed || _rigidbody2D.velocity.x > maxHSpeed)
+            
+            if (Mathf.Abs(axis) != 0f)
             {
-                var sign = _rigidbody2D.velocity.x >= 0 ? 1 : -1;
+                var sign = axis switch
+                {
+                    // 0 => 0,
+                    > 0 => +1,
+                    _ => -1
+                };
+
                 if (sign == -1)
                 {
                     _switcherOnTimer.CurrentInternalPlayerController.FaceLeft();
@@ -52,12 +57,9 @@ namespace Script
                 {
                     _switcherOnTimer.CurrentInternalPlayerController.FaceRight();
                 }
-                _rigidbody2D.velocity = new Vector2(sign * maxHSpeed, _rigidbody2D.velocity.y);
-            }
-            
-            if (_rigidbody2D.velocity.Abs().x > 0.000007)
-            {
                 _switcherOnTimer.CurrentInternalPlayerController.SetRunning();
+                
+                _rigidbody2D.velocity = new Vector2(sign * maxHSpeed, _rigidbody2D.velocity.y);
             }
             else
             {
