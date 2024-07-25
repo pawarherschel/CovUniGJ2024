@@ -1,6 +1,7 @@
 using System;
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Script
 {
@@ -9,7 +10,7 @@ namespace Script
         
         [SerializeField] private GameObject[] prefabs;
 
-        public int SpriteIndex
+        private int SpriteIndex
         {
             get => _spriteIndex;
             set
@@ -31,8 +32,13 @@ namespace Script
                 Destroy(_currentSprite);
                 System.Diagnostics.Debug.Assert(value, nameof(value) + " != null");
                 _currentSprite = Instantiate(value, this.transform);
+                CurrentInternalPlayerController = _currentSprite.GetComponent<InternalPlayerController>();
+                // currentAnimator = _currentSprite.GetComponent<Animator>();
             }
         }
+
+        internal InternalPlayerController CurrentInternalPlayerController;
+        // public Animator currentAnimator;
 
         private float _changeTimer;
 

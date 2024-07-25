@@ -2,6 +2,7 @@ using System;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Script
 {
@@ -11,7 +12,6 @@ namespace Script
         
         [SerializeField] private float maxHSpeed = 3f;
         [SerializeField] private float horizontalSpeed = 10f;
-        private bool _canJump = true;
         [SerializeField] private float jumpForce = 7.5f;
 
         private PrefabSwitcherOnTimer _switcherOnTimer;
@@ -27,24 +27,42 @@ namespace Script
         private void Update()
         {
             _rigidbody2D.AddForce(Vector2.right * (Input.GetAxis("Horizontal") * horizontalSpeed));
-            if (Input.GetKeyDown(KeyCode.Space) && _canJump)
+            if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
             {
-                // var animator = _switcherOnTimer.CurrentSprite.GetComponent<Animator>();
-                // animator.Play("jump");
-                _rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-                _canJump = false;
+                var didJump = _switcherOnTimer.CurrentInternalPlayerController.Jump();
+                if (didJump)
+                {
+                    _rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                }
+            }
+            
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                _switcherOnTimer.CurrentInternalPlayerController.Attack();
             }
             
             if (_rigidbody2D.velocity.x < -maxHSpeed || _rigidbody2D.velocity.x > maxHSpeed)
             {
                 var sign = _rigidbody2D.velocity.x >= 0 ? 1 : -1;
+                if (sign == -1)
+                {
+                    _switcherOnTimer.CurrentInternalPlayerController.FaceLeft();
+                }
+                else
+                {
+                    _switcherOnTimer.CurrentInternalPlayerController.FaceRight();
+                }
                 _rigidbody2D.velocity = new Vector2(sign * maxHSpeed, _rigidbody2D.velocity.y);
             }
-        }
-
-        private void OnTriggerEnter2D(Collider2D other)
-        {
-            _canJump = true;
+            
+            if (_rigidbody2D.velocity.Abs().x > 0.000007)
+            {
+                _switcherOnTimer.CurrentInternalPlayerController.SetRunning();
+            }
+            else
+            {
+                _switcherOnTimer.CurrentInternalPlayerController.ResetRunning();
+            }
         }
     }
 }
