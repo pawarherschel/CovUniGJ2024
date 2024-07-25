@@ -1,4 +1,5 @@
 using System;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Assertions;
 
@@ -30,6 +31,15 @@ namespace Script
             }
             
             _rigidbody2D.velocity = velocity;
+        }
+
+        private void OnTriggerEnter2D([NotNull] Collider2D other)
+        {
+            if (other.CompareTag("Enemy"))
+            {
+                Destroy(other.gameObject);
+                Destroy(this.gameObject);
+            }
         }
     }
 }

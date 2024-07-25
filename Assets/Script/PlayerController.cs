@@ -1,3 +1,5 @@
+using System;
+using JetBrains.Annotations;
 using UnityEngine;
 
 namespace Script
@@ -65,6 +67,19 @@ namespace Script
             {
                 _switcherOnTimer.CurrentInternalPlayerController.ResetRunning();
             }
+        }
+
+        private void OnCollisionEnter2D([NotNull] Collision2D other)
+        {
+            if (other.gameObject.CompareTag("Enemy"))
+            {
+                GameOver();
+            }
+        }
+
+        private void GameOver()
+        {
+            throw new NotImplementedException();
         }
     }
 }
