@@ -56,6 +56,7 @@ namespace Script
                 var projectileInstance = Instantiate(projectile, projectileLocation.position, Quaternion.identity);
 
                 var audioSource = GetComponentInParent<AudioSource>();
+                Debug.Assert(audioSource, nameof(audioSource) + " != null");
                 audioSource.Play();
                 
                 

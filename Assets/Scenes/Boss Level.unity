@@ -6220,6 +6220,10 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4429132863726265401, guid: 5a9488fda3c051e46b213f31ecc41c77, type: 3}
+      propertyPath: maxHealthPoints
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6679425117431012276, guid: 5a9488fda3c051e46b213f31ecc41c77, type: 3}
       propertyPath: m_Name
       value: Player
@@ -12061,7 +12065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682409766079523906, guid: 4781c84077b79f54d95f333a453b5202, type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6015706152614610638, guid: 4781c84077b79f54d95f333a453b5202, type: 3}
       propertyPath: m_BodyType

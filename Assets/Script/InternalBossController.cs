@@ -1,6 +1,7 @@
 using System;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 using Debug = System.Diagnostics.Debug;
 using Object = UnityEngine.Object;
@@ -19,6 +20,11 @@ namespace Script
 
         internal bool Attack()
         {
+            if (_animator == null)
+            {
+                return false;
+            }
+
             var animationState = _animator.GetCurrentAnimatorStateInfo(0);
 
             if (!animationState.IsName("idle"))
@@ -26,7 +32,7 @@ namespace Script
                 _attackedLastFrame = false;
                 return false;
             }
-            
+
             print("attacking");
             _animator.SetTrigger(AttackTrigger);
             return true;
@@ -44,7 +50,7 @@ namespace Script
 
         internal void StopChase()
         {
-            _animator.SetBool(RunningBool, false);
+            if (_animator != null) _animator.SetBool(RunningBool, false);
         }
         
         // Start is called before the first frame update
@@ -65,6 +71,11 @@ namespace Script
         // Update is called once per frame
         private void Update()
         {
+            if (!_animator)
+            {
+                SceneManager.LoadScene("Game Won");
+            }
+            
             var animationState = _animator.GetCurrentAnimatorStateInfo(0);
 
             var isAttacking = animationState.IsName("atk");
