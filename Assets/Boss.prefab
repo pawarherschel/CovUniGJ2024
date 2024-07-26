@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 337596319427206587}
   - component: {fileID: 6015706152614610638}
   - component: {fileID: 7663773223438839037}
+  - component: {fileID: 3164575576031064478}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -51,6 +52,7 @@ MonoBehaviour:
   attackPosition: {fileID: 5661931661012333472}
   chasePosition: {fileID: 9127531954067924678}
   hSpeed: 1
+  bossHealthPoints: 3
 --- !u!50 &6015706152614610638
 Rigidbody2D:
   serializedVersion: 4
@@ -93,6 +95,18 @@ MonoBehaviour:
   prefabs:
   - {fileID: 2013853372708804915, guid: d5c3e28375be1744896a769a2b12013d, type: 3}
   changeCooldown: 12
+--- !u!114 &3164575576031064478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5682409766079523906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 375342ecf1231ba42ad03f58412d55e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6611722900221727070
 GameObject:
   m_ObjectHideFlags: 0

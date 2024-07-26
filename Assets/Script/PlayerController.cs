@@ -14,7 +14,9 @@ namespace Script
         [SerializeField] private float maxHSpeed = 3f;
         [SerializeField] private float horizontalSpeed = 10f;
         [SerializeField] private float jumpForce = 7.5f;
-        [SerializeField] private float healthPoints = 3;
+        [SerializeField] private float maxHealthPoints = 3;
+
+        public float healthPoints;
 
         private PlayerPrefabSwitcherOnTimer _switcherOnTimer;
         
@@ -23,6 +25,8 @@ namespace Script
         {
             _rigidbody2D = this.GetComponent<Rigidbody2D>();
             _switcherOnTimer = this.GetComponent<PlayerPrefabSwitcherOnTimer>();
+
+            healthPoints = maxHealthPoints;
         }
 
         // Update is called once per frame
@@ -90,8 +94,8 @@ namespace Script
 
             if (other.gameObject.layer == LayerMask.NameToLayer("Lava"))
             {
-                healthPoints -= 0.5f;
-                if (healthPoints < 0)
+                maxHealthPoints -= 0.5f;
+                if (maxHealthPoints < 0)
                 {
                     GameOver();
                 }
@@ -110,8 +114,8 @@ namespace Script
         {
             if (!other.gameObject.CompareTag("Enemy")) return;
             
-            healthPoints--;
-            if (healthPoints < 0)
+            maxHealthPoints--;
+            if (maxHealthPoints < 0)
             {
                 GameOver();
             }

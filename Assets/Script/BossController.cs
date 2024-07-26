@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Script
 {
@@ -7,6 +8,7 @@ namespace Script
         [SerializeField] private Transform attackPosition;
         [SerializeField] private Transform chasePosition;
         [SerializeField] private float hSpeed;
+        [SerializeField] private float bossHealthPoints = 3;
         
         private GameObject _player;
         private BossPrefabSwitcherOnTimer _switcherOnTimer;
@@ -35,7 +37,11 @@ namespace Script
         // Update is called once per frame
         private void Update()
         {
-            var canAttack = CanAttack();
+            if (_player == null){
+                SceneManager.LoadScene("Game Over");
+            }
+
+            var canAttack = CanAttack(); 
             var canChase = CanChase();
 
             bool? attackSuccess = null;
@@ -65,7 +71,7 @@ namespace Script
         private bool CanChase()
         {
             var position = chasePosition.position;
-            var playerInRange = _player.transform != null && Vector2.Distance(_player.transform.position, position) <
+            var playerInRange = _player != null && Vector2.Distance(_player.transform.position, position) <
                 Vector2.Distance(Vector2.zero, position);
 
             return playerInRange;
@@ -74,7 +80,7 @@ namespace Script
         private bool CanAttack()
         {
             var position = attackPosition.position;
-            var playerInRange = _player.transform != null && Vector2.Distance(_player.transform.position, position) <
+            var playerInRange = _player != null && Vector2.Distance(_player.transform.position, position) <
                 Vector2.Distance(Vector2.zero, position);
 
             return playerInRange;
