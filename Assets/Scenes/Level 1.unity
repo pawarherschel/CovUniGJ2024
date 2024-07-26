@@ -10516,7 +10516,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4429132863726265401, guid: 5a9488fda3c051e46b213f31ecc41c77, type: 3}
       propertyPath: maxHealthPoints
-      value: 30
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6174374508091865180, guid: 5a9488fda3c051e46b213f31ecc41c77, type: 3}
       propertyPath: m_GravityScale
