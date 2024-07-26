@@ -19,12 +19,17 @@ namespace Script
         public float healthPoints;
 
         private PlayerPrefabSwitcherOnTimer _switcherOnTimer;
+        private AudioSource _audioSource;
         
         // Start is called before the first frame update
         private void Start()
         {
             _rigidbody2D = this.GetComponent<Rigidbody2D>();
+            Debug.Assert(_rigidbody2D != null, nameof(_rigidbody2D) + " != null");
             _switcherOnTimer = this.GetComponent<PlayerPrefabSwitcherOnTimer>();
+            Debug.Assert(_switcherOnTimer != null, nameof(_switcherOnTimer) + " != null");
+            _audioSource = this.GetComponent<AudioSource>();
+            Debug.Assert(_audioSource != null, nameof(_audioSource) + " != null");
 
             healthPoints = maxHealthPoints;
         }
