@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3530384369514433045}
   - component: {fileID: 6174374508091865180}
   - component: {fileID: 2502010064608470469}
-  - component: {fileID: 7940881289636049143}
   - component: {fileID: 4429132863726265401}
   - component: {fileID: 1063683922161558787}
+  - component: {fileID: 5894776047587856337}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -98,21 +98,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.21428572}
   m_Size: {x: 0.18571429, y: 0.42857143}
   m_Direction: 0
---- !u!114 &7940881289636049143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6679425117431012276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 092087aad5360e245817f037afd3d7db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 9024221479121898694, guid: 7064485e91b6f114f8e6b8fceadb8f11, type: 3}
-  changeCooldown: 12
 --- !u!114 &4429132863726265401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,6 +113,7 @@ MonoBehaviour:
   maxHSpeed: 0.25
   horizontalSpeed: 0.3
   jumpForce: 1.5
+  healthPoints: 2
 --- !u!61 &1063683922161558787
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -173,3 +159,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.19589218, y: 0.059733137}
   m_EdgeRadius: 0
+--- !u!114 &5894776047587856337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6679425117431012276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5abcaba42694684afb460e355a7c198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 9024221479121898694, guid: 7064485e91b6f114f8e6b8fceadb8f11, type: 3}
+  - {fileID: 760304433281065440, guid: a7c319ccf95c14845b69f2e1effdb120, type: 3}
+  changeCooldown: 12

@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.Serialization;
+using Debug = System.Diagnostics.Debug;
 
 namespace Script
 {
@@ -17,30 +18,48 @@ namespace Script
 
         [SerializeField] private GameObject projectile;
         [SerializeField] private Transform projectileLocation;
-        [SerializeField] private Vector2 projectileVelocity = Vector2.zero;
+        [SerializeField] private float projectileVelocity = 0f;
+        [SerializeField] private float attackTimePoint = 0.2f;
 
         // Start is called before the first frame update
         private void Start()
         {
             _animator = this.GetComponent<Animator>();
+            Debug.Assert(_animator != null, nameof(_animator) + " != null");
             _spriteRenderer = this.GetComponent<SpriteRenderer>();
+            Debug.Assert(_spriteRenderer != null, nameof(_spriteRenderer) + " != null");
             
             Assert.IsNotNull(projectile);
             Assert.IsNotNull(projectileLocation);
         }
-
+        
+        private void Awake()
+        {
+            _animator = this.GetComponent<Animator>();
+            Debug.Assert(_animator != null, nameof(_animator) + " != null");
+            _spriteRenderer = this.GetComponent<SpriteRenderer>();
+            Debug.Assert(_spriteRenderer != null, nameof(_spriteRenderer) + " != null");
+            
+            Assert.IsNotNull(projectile);
+            Assert.IsNotNull(projectileLocation);
+        }
+        
         private void Update()
         {
             var animationState = _animator.GetCurrentAnimatorStateInfo(0);
 
-            var attackAnimationEnding = (animationState.IsName("atk") && animationState.normalizedTime > 0.2);
+            var attackAnimationEnding = animationState.IsName("atk") && (animationState.normalizedTime > attackTimePoint);
             var attackJustConnected = !_prevAttackAnimationEnding && attackAnimationEnding;
-
+            
             if (attackJustConnected)
             {
-                var projectileInstance = Instantiate(projectile, projectileLocation);
+                var projectileInstance = Instantiate(projectile, projectileLocation.position, Quaternion.identity);
+                Debug.Assert(projectileInstance, nameof(projectileInstance) + " != null");
                 var projectileScript = projectileInstance.GetComponent<ProjectileScript>();
-                projectileScript.SetVelocity(projectileVelocity);
+                Debug.Assert(projectileScript, nameof(projectileScript) + " != null");
+                var speed = Vector2.right * projectileVelocity;
+                var velocity = (_spriteRenderer.flipX ? -1 : 1) * speed;
+                projectileScript.SetVelocity(velocity);
             }
 
             _prevAttackAnimationEnding = attackAnimationEnding;
@@ -53,6 +72,8 @@ namespace Script
 
         internal void ResetRunning()
         {
+            Debug.Assert(_animator, nameof(_animator) + " != null");
+            // print(nameof(RunBool) +" "+RunBool);
             _animator.SetBool(RunBool, false);
         }
 
@@ -87,11 +108,23 @@ namespace Script
         internal void FaceRight()
         {
             _spriteRenderer.flipX = false;
+            // projectileLocation.localPosition.x = 0 - projectileLocation.localPosition.x;
+            var localPosition = projectileLocation.localPosition;
+            var vector3 = localPosition;
+            vector3.x = 0 - localPosition.x;
+            localPosition = vector3;
+            projectileLocation.localPosition = localPosition;
         }
 
         internal void FaceLeft()
         {
             _spriteRenderer.flipX = true;
+            // projectileLocation.localPosition.x = 0 - projectileLocation.localPosition.x;
+            var localPosition = projectileLocation.localPosition;
+            var vector3 = localPosition;
+            vector3.x = 0 - localPosition.x;
+            localPosition = vector3;
+            projectileLocation.localPosition = localPosition;
         }
     }
 }

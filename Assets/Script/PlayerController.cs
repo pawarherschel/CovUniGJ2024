@@ -18,7 +18,7 @@ namespace Script
 
         public float healthPoints;
 
-        private PrefabSwitcherOnTimer _switcherOnTimer;
+        private PlayerPrefabSwitcherOnTimer _switcherOnTimer;
         
         // Start is called before the first frame update
         private void Start()
@@ -38,7 +38,7 @@ namespace Script
             _rigidbody2D.AddForce(Vector2.right * (axis * horizontalSpeed));
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
             {
-                var didJump = _switcherOnTimer.CurrentInternalPlayerController.Jump();
+                var didJump = _switcherOnTimer.CurrentInternalController.Jump();
                 if (didJump)
                 {
                     _rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
@@ -52,7 +52,7 @@ namespace Script
             
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
-                _switcherOnTimer.CurrentInternalPlayerController.Attack();
+                _switcherOnTimer.CurrentInternalController.Attack();
             }
             
             
@@ -67,21 +67,21 @@ namespace Script
 
                 if (sign == -1)
                 {
-                    _switcherOnTimer.CurrentInternalPlayerController.FaceLeft();
+                    _switcherOnTimer.CurrentInternalController.FaceLeft();
                 }
                 else
                 {
-                    _switcherOnTimer.CurrentInternalPlayerController.FaceRight();
+                    _switcherOnTimer.CurrentInternalController.FaceRight();
                 }
-                _switcherOnTimer.CurrentInternalPlayerController.SetRunning();
+                _switcherOnTimer.CurrentInternalController.SetRunning();
                 
                 _rigidbody2D.velocity = new Vector2(sign * maxHSpeed, _rigidbody2D.velocity.y);
             }
             else
             {
-                Debug.Assert(_switcherOnTimer != null, nameof(_switcherOnTimer) + " != null");
-                Debug.Assert(_switcherOnTimer.CurrentInternalPlayerController != null, "_switcherOnTimer.CurrentInternalPlayerController != null");
-                _switcherOnTimer.CurrentInternalPlayerController.ResetRunning();
+                Debug.Assert(_switcherOnTimer, nameof(_switcherOnTimer) + " != null");
+                Debug.Assert(_switcherOnTimer.CurrentInternalController, "_switcherOnTimer.CurrentInternalPlayerController != null");
+                _switcherOnTimer.CurrentInternalController.ResetRunning();
             }
         }
 

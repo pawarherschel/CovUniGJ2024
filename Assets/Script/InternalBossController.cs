@@ -27,6 +27,7 @@ namespace Script
                 return false;
             }
             
+            print("attacking");
             _animator.SetTrigger(AttackTrigger);
             return true;
         }
