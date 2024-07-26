@@ -47,7 +47,7 @@ namespace Script
 
         private void OnTriggerEnter2D([NotNull] Collider2D other)
         {
-            if (!other.CompareTag("Enemy")) return;
+            if (!other.CompareTag("Enemy") && !other.CompareTag("Player")) return;
             Destroy(other.gameObject);
             Destroy(this.gameObject);
 

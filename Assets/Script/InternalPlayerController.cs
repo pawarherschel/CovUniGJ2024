@@ -33,6 +33,17 @@ namespace Script
             Assert.IsNotNull(projectileLocation);
         }
         
+        private void Awake()
+        {
+            _animator = this.GetComponent<Animator>();
+            Debug.Assert(_animator != null, nameof(_animator) + " != null");
+            _spriteRenderer = this.GetComponent<SpriteRenderer>();
+            Debug.Assert(_spriteRenderer != null, nameof(_spriteRenderer) + " != null");
+            
+            Assert.IsNotNull(projectile);
+            Assert.IsNotNull(projectileLocation);
+        }
+        
         private void Update()
         {
             var animationState = _animator.GetCurrentAnimatorStateInfo(0);
@@ -42,7 +53,7 @@ namespace Script
             
             if (attackJustConnected)
             {
-                var projectileInstance = Instantiate(projectile, projectileLocation);
+                var projectileInstance = Instantiate(projectile, projectileLocation.position, Quaternion.identity);
                 Debug.Assert(projectileInstance, nameof(projectileInstance) + " != null");
                 var projectileScript = projectileInstance.GetComponent<ProjectileScript>();
                 Debug.Assert(projectileScript, nameof(projectileScript) + " != null");
