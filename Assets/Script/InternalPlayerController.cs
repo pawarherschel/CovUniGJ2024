@@ -54,6 +54,12 @@ namespace Script
             if (attackJustConnected)
             {
                 var projectileInstance = Instantiate(projectile, projectileLocation.position, Quaternion.identity);
+
+                var audioSource = GetComponentInParent<AudioSource>();
+                Debug.Assert(audioSource, nameof(audioSource) + " != null");
+                audioSource.Play();
+                
+                
                 Debug.Assert(projectileInstance, nameof(projectileInstance) + " != null");
                 var projectileScript = projectileInstance.GetComponent<ProjectileScript>();
                 Debug.Assert(projectileScript, nameof(projectileScript) + " != null");
@@ -77,9 +83,12 @@ namespace Script
             _animator.SetBool(RunBool, false);
         }
 
-        internal void Attack()
+        internal bool Attack()
         {
+            var success = !_animator.GetCurrentAnimatorStateInfo(0).IsName("atk");
             _animator.SetTrigger(AttackTrigger);
+
+            return success;
         }
 
         internal bool Jump()
