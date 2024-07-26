@@ -36,8 +36,28 @@ namespace Script
 
         private void OnTriggerEnter2D([NotNull] Collider2D other)
         {
-            if (!other.CompareTag("Enemy")) return;
-            Destroy(other.gameObject);
+            if (!other.CompareTag("Enemy") && !other.CompareTag("Player")) return;
+            var remainingHealth = 0f;
+
+            if (other.CompareTag("Enemy")){
+                var healthScript = other.GetComponentInParent<HealthScript>();
+                if (healthScript)
+                {
+                    healthScript.health -= 1;
+                    remainingHealth = healthScript.health;
+                    print(nameof(remainingHealth) + ": " + remainingHealth);
+                }
+            }
+            if (other.CompareTag("Player"))
+            {
+                var playerController = other.GetComponent<PlayerController>();
+                playerController.healthPoints -= 1;
+                remainingHealth = playerController.healthPoints;
+            }
+
+            if (remainingHealth > 0) return;
+
+            Destroy(other.gameObject); 
             Destroy(this.gameObject);
 
             var levelScript = GameObject.FindObjectOfType<LevelScript>();

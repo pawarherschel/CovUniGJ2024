@@ -69,7 +69,8 @@ namespace Script
         private void TimerJustCompleted()
         {
             _changeTimer = 0f;
-            
+
+            // print("Switching Player");
             SpriteIndex++;
         }
     }
